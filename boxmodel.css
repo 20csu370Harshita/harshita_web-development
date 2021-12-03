@@ -1,0 +1,20 @@
+.parent{
+    width:50%;
+    border: 2px solid brown;
+    float: left;
+}
+.child{
+    width: 90%;
+    border: 4px dotted blue;
+    margin: 5em auto;
+    padding: 20%;
+}
+.twinchild{
+    width: 50%;
+    padding: lem;
+    border: 5px dashed green;
+    float: left;
+}
+*{
+    box-sizing: border-box;
+}

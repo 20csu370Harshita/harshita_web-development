@@ -1,0 +1,10 @@
+section{
+    background-color: orange;
+    color: rgb(71, 45, 45);
+    border-radius: 30px;
+    border: 5ps solid blue;
+    padding: 30px;
+}
+section>label{
+    width: 100px;
+}

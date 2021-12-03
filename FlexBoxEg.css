@@ -1,0 +1,19 @@
+img{
+    width: inherit;
+}
+#left{
+    width: 20%;
+    border: 2px dashed orange;
+}
+#mid{
+    width: 50%;
+    border: 2px dashed orange;
+}
+#Right{
+    width: 25%;
+    border: 2px dashed orange;
+}
+#Parent{
+    display: flex;
+    justify-content: space-evenly;
+}

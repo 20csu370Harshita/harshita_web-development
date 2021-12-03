@@ -1,0 +1,30 @@
+img{
+    height: inherit;
+    width: inherit;
+    color: green;
+}
+div{
+    overflow: hidden;
+    width: 4 px;
+    height: 4 px ; 
+    border: 4px dotted blue;
+    border-radius: 4%;
+    transition-duration: 5s; 
+    transform-origin: 50%;
+    perspective: s;
+    color: red;
+    background-color: green;
+}
+div:hover{
+    /* transform: translateX(800px);
+    transform: translateY(800px);
+    transform: translateZ(800); */
+    
+    /* transform: rotateY(180deg) */
+
+    /* transform: scaleX(50%); */
+    /* transform: skew(30deg) */
+    
+    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
+}
